@@ -1,0 +1,28 @@
+{
+  "name": "contact-api",
+  "version": "1.0.0",
+  "description": "A simple RESTful API for managing contacts using Node.js and Express",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "contacts",
+    "api",
+    "express",
+    "nodejs",
+    "rest"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "eslint": "^8.57.0"
+  }
+}
